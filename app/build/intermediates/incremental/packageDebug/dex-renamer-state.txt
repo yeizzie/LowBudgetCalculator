@@ -1,0 +1,4 @@
+#Mon Sep 25 13:56:06 PDT 2017
+base.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\906ece9e097b5f029dfb0cc0ee797eeafc7381de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_37667b93e0adddf9a113fc8099cabeba072dc874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\9a94c7faf45c5244c4c6043914f065f7cb0a71c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_31d3f55a7d1e57cb4ccd4e46adb5b6bdc9a9a106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\7d64a5444b8f88ea43add4ee90a3880831b496ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_186cb5eb221c02088ea6c1b36eb39c2c6644f8ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\fb6e2d110e4dfa52388e6498a1d1fae4478ba7dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_09633315433606b7a56ba1aac5ac77ce02faa1b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\88dff9c4d06a422ea9964e988a1153f7f5f70c5d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_83d99f31ccb5be54fc575c72eb005f0d3130a6da.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5f4ebb513ffa018fbe28eb1dc9e92ff1f191bec4">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2d034b319a6d6582240c4e0d9f235b26a67160bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_4d6946546e2c5a229b399e7d425ca8570a9bb197.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_543c6cd00d811cb0a83d6b5fda292493f7ac97d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\64e075ba1d5cb56df6eab04ecc9fda9a4e7aa66a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_bc721d9d7b13bf1e7a5a9170d435d34698b61495.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\942f754d48fa59d0e9391fa035469f5f8958f8d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_4cdbe7b1b3bf57beda8d80b2a192ccc6a993ee4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_cacddf73570d27fc63d84be30ecd81a934cc12d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_e11ddf6c9d8a38682228252ceb37ee792e274cfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\7a985e562f7680f00a73f12f0d9e5573c75faa65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_fe811a8e692a82f27977ed3b8bf26316a6bfe245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yeizz\.android\build-cache\f69f955f0df629c5b8119ca9d65b4b413e31d9d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\build\intermediates\pre-dexed\debug\classes_26800ccf2ab2ffcc167d9d725c56ca1951c72c56.jar" />
+    </item>
+
+</items>

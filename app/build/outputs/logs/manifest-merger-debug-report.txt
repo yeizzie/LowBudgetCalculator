@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7d64a5444b8f88ea43add4ee90a3880831b496ca\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7a985e562f7680f00a73f12f0d9e5573c75faa65\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yeizz\.android\build-cache\88dff9c4d06a422ea9964e988a1153f7f5f70c5d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb6e2d110e4dfa52388e6498a1d1fae4478ba7dc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\9a94c7faf45c5244c4c6043914f065f7cb0a71c9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\942f754d48fa59d0e9391fa035469f5f8958f8d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\64e075ba1d5cb56df6eab04ecc9fda9a4e7aa66a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\f69f955f0df629c5b8119ca9d65b4b413e31d9d4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\906ece9e097b5f029dfb0cc0ee797eeafc7381de\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.yeizz.intergercalculator.MainActivity
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:16:27-74
+dependency
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:20:9-24:22
+groupId
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:21:13-48
+artifactId
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:22:13-43
+version
+ADDED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml:23:13-37
+uses-sdk
+INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7d64a5444b8f88ea43add4ee90a3880831b496ca\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7a985e562f7680f00a73f12f0d9e5573c75faa65\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yeizz\.android\build-cache\88dff9c4d06a422ea9964e988a1153f7f5f70c5d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb6e2d110e4dfa52388e6498a1d1fae4478ba7dc\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\9a94c7faf45c5244c4c6043914f065f7cb0a71c9\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\942f754d48fa59d0e9391fa035469f5f8958f8d3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\64e075ba1d5cb56df6eab04ecc9fda9a4e7aa66a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\f69f955f0df629c5b8119ca9d65b4b413e31d9d4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\906ece9e097b5f029dfb0cc0ee797eeafc7381de\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SJSU\2017-2018\Fall\277\Lab\IntergerCalculator\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7d64a5444b8f88ea43add4ee90a3880831b496ca\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\7a985e562f7680f00a73f12f0d9e5573c75faa65\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb6e2d110e4dfa52388e6498a1d1fae4478ba7dc\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\9a94c7faf45c5244c4c6043914f065f7cb0a71c9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\942f754d48fa59d0e9391fa035469f5f8958f8d3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\64e075ba1d5cb56df6eab04ecc9fda9a4e7aa66a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\f69f955f0df629c5b8119ca9d65b4b413e31d9d4\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\906ece9e097b5f029dfb0cc0ee797eeafc7381de\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\yeizz\.android\build-cache\fb156e3bdec152369428a355d6fe5b63528f63f4\output\AndroidManifest.xml:26:9-47
