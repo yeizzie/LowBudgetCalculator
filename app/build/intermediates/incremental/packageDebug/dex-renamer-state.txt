@@ -1,4 +1,7 @@
-#Mon Sep 25 13:56:06 PDT 2017
-base.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Thu Sep 28 18:23:26 PDT 2017
+base.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_543c6cd00d811cb0a83d6b5fda292493f7ac97d0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2d034b319a6d6582240c4e0d9f235b26a67160bb\\classes.dex
+base.1=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2d034b319a6d6582240c4e0d9f235b26a67160bb
+file.0=E\:\\SJSU\\2017-2018\\Fall\\277\\Lab\\IntergerCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_543c6cd00d811cb0a83d6b5fda292493f7ac97d0\\classes.dex

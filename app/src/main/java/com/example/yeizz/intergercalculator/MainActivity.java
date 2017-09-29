@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button  btnEqual, btnClear;
     private boolean errorState;
     private boolean firstDigit;
+    private boolean equalSign;
     private String number1;
     private String number2;
     private String opeartor;
@@ -40,8 +41,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Just append/set the text of clicked button
                 Button button = (Button) v;
+                if(equalSign){
+                    reset();
+                }
                 // If current state is Error, replace the error message
                 String curDisplay = display.getText().toString();
+
                 // if current display is zero
                 boolean leadingZero = curDisplay.equals("0");
                 //reset display if there is error, leadingnumber, previous is sign
@@ -75,10 +80,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Button button = (Button) v;
+                equalSign = false;
                 if(firstDigit){
                     opeartor = button.getText().toString();
                     if(opeartor.equals("*") || opeartor.equals("/")){
                         setError();
+                        return;
                     }else{
                         number1 = "0";
                     }
@@ -91,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                         }else if(isOverFlow(tmp)){
                             setOverflow();
                         }else{
+                            display.setText(tmp);
                             number1 = tmp;
                         }
 
@@ -115,6 +123,8 @@ public class MainActivity extends AppCompatActivity {
         opeartor = null;
         number1 = null;
         number2 = null;
+        equalSign = false;
+
 
         display = (TextView)findViewById(R.id.textDisplay);
         btnClear = (Button)findViewById(R.id.buttonClear);
@@ -125,14 +135,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                errorState = false;
-                curOpeartion = false;
-                firstDigit = true;
-                opeartor = null;
-                number1 = null;
-                number2 = null;
+                reset();
 
-                display.setText("");
 
             }
         });
@@ -146,13 +150,16 @@ public class MainActivity extends AppCompatActivity {
                     String tmp = calculate(number1, number2, opeartor);
                     if(tmp == null){
                         setError();
+                        return;
                     } else if(isOverFlow(tmp)){
                         setOverflow();
+                        return;
                     }else{
                         number1 = tmp;
                         number2 = null;
                         curOpeartion = true;
                         opeartor = null;
+                        equalSign = true;
                         display.setText(number1);
 
                     }
@@ -187,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
                     double doubleResult = val1 / (val2 + 0.0);
                     double difference = Math.abs(doubleResult - intResult);
                     if(difference >= 0.5){
-                        if(intResult > 0 ){
+                        if(doubleResult > 0 ){
                             intResult++;
                         }else{
                             intResult--;
@@ -204,22 +211,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setError(){
+        errorState = true;
         curOpeartion = false;
         firstDigit = true;
         opeartor = null;
         number1 = null;
         number2 = null;
+        equalSign = false;
+
 
         display.setText("ERROR!");
 
     }
 
     private void setOverflow(){
+
+        errorState = true;
         curOpeartion = false;
         firstDigit = true;
         opeartor = null;
         number1 = null;
         number2 = null;
+        equalSign = false;
+
 
         display.setText("OVERFLOW!");
 
@@ -235,6 +249,19 @@ public class MainActivity extends AppCompatActivity {
 
     private int toInt(String str){
         return Integer.parseInt(str);
+    }
+
+    private void reset(){
+        errorState = false;
+        curOpeartion = false;
+        firstDigit = true;
+        opeartor = null;
+        number1 = null;
+        number2 = null;
+        equalSign = false;
+        display.setText("");
+
+
     }
 }
 
