@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(number2 == null){
+                if(number2 == null || curOpeartion){
                     setError();
                 }else{
                     String tmp = calculate(number1, number2, opeartor);
