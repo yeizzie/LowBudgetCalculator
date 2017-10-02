@@ -82,14 +82,9 @@ public class MainActivity extends AppCompatActivity {
                 Button button = (Button) v;
                 equalSign = false;
                 if(firstDigit){
+                    curOpeartion = true;
                     opeartor = button.getText().toString();
-                    if(opeartor.equals("*") || opeartor.equals("/")){
-                        setError();
-                        return;
-                    }else{
-                        number1 = "0";
-                    }
-
+                    return;
                 }else{
                     if(!curOpeartion){
                         String tmp = calculate(number1, number2, opeartor);
@@ -103,10 +98,14 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                     }
+
+
+                    curOpeartion = true;
+                    opeartor = button.getText().toString();
+
                 }
 
-                curOpeartion = true;
-                opeartor = button.getText().toString();
+
 
             }
         };
@@ -134,16 +133,14 @@ public class MainActivity extends AppCompatActivity {
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 reset();
-
-
             }
         });
 
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 if(number2 == null || curOpeartion){
                     setError();
                 }else{
@@ -175,8 +172,13 @@ public class MainActivity extends AppCompatActivity {
         String result = null;
         if( value2 == null){
             setError();
+            return null;
         }
         else{
+            if(value1 == null && (sign == "*" || sign == "/")){
+                setError();
+                return null;
+            }
             int val1 = value1 == null? 0 : toInt(value1);
             int val2 = toInt(value2);
             if(sign == null || sign.equals("+")){
